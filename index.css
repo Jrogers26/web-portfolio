@@ -1,0 +1,88 @@
+
+body {
+    background: #EEF0F2;
+}
+
+.nav-button {
+    margin-right: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+
+
+
+
+.a-col {
+    display: flex;
+    justify-content: right;
+}
+
+.b-col {
+    display: flex;
+    justify-content: left;
+}
+
+.card-transform:hover {
+    transform: scale(1.02);
+    transition: transform 0.8s ease-in-out;
+}
+
+.card {
+    margin-top: 20px;
+    height: 335px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    background: #216869;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.card-header {
+    background-color: #216869;
+    text-align: left;
+}
+
+
+/* This is css for additional html pages */
+
+.info-container {
+    display: flex;
+    justify-content: center;
+}
+
+.info-card {
+    margin-top: 50px;
+    height: 550px;
+    width: 800px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* this css is for the form page */
+
+.form-container {
+    margin-top: 20px;
+    background: #216869;
+    border-radius: 25px;
+    height: 550px;
+    width: 600px;
+}
+
+.info-card {
+    height: 580px;
+}
+
+.form-label {
+    margin-left: 10px;
+    display: flex;
+    justify-content: left;
+}
